@@ -1,0 +1,43 @@
+* {
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    background-image: linear-gradient(rgba(128, 0, 128, 0.644), rgba(0, 255, 255, 0.637), rgba(144, 238, 144, 0.575));
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    padding: 1rem;
+    background-color: #fff;
+    height: 80vh;
+    width: 412px;
+    min-width: 412px;
+    overflow-x: auto;
+    border-radius: 1rem;
+}
+
+.pokemon-slots-container {
+    height: 80vh;
+    width: 888px;
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: 5px;
+}
+
+/* @media screen  and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+    
+} */

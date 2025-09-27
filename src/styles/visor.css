@@ -1,0 +1,132 @@
+.pokemon-slots-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon-slot {
+    height: 70vh;
+    width: 400px;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px #80808085;
+}
+
+.pokemonDisplay {
+    height: 50%;
+    border-radius: 1rem 1rem 0 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.pokemon-slot .displayName {
+    position: relative;
+    top: 20px;
+    left: 10px;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.pokemon-slot .displayNumber {
+    position: relative;
+    top: 5px;
+    left: -20px;
+    color: #fff;
+    font-size: 0.625rem;
+    text-align: right;
+}
+
+.pokemon-slot ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 2rem;
+}
+
+.pokemon-slot ul li {
+    color: #fff;
+    padding: 0.25rem 0.5rem;
+    font-size: 0.625rem;
+    margin: 0.25rem 0;
+    border-radius: 1rem;
+    filter: brightness(1.1);
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.pokemon-slot img, .pokemon-slot img {
+    height: 120px;
+    position: relative;
+    top: 110px;
+    left: 135px;
+}
+
+
+.statsBar {
+    margin-top: 1rem;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: 0.5rem;
+}
+
+.basicStatus {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.stat-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    gap: 10px;
+}
+
+.stat-name {
+    flex: 0 0 60px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.stat-value {
+    flex: 0 0 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.stat-bar {
+    flex: 1;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.stat-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #ffde00, #ff8c00);
+    transition: width 0.5s ease;
+}
+
+.total-stats {
+    margin-top: 1rem;
+    padding-top: 0.5rem;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    font-weight: bold;
+}
+
+.total-label {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.total-value {
+    color: #fff;
+    font-size: 1.1rem;
+}
